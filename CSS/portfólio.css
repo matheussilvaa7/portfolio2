@@ -4,17 +4,36 @@ body {
     padding: 0;
     background-color: black;
     color: white;
+    background-image: url('../IMG/ab649f28-f681-4e01-b309-dd829b6afd0c-removebg-preview.png'); 
     
+   background-size: 700px;
+background-repeat: no-repeat; 
+   
+background-position: right top; 
+   
+;
 }
 
+
+
+.h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    align-items: flex-start;
+    text-align: left;
+    margin: 10px;
+    padding: 10px;
+
+}
 .navbar {
-    background-color: crimson;
-    padding: 20px;
-    text-align: center;
+ 
+ 
+    text-align: right;
 }
 .navbar ul {
-    margin: 0;
-    padding: 0;
+    margin: 10px;
+    padding: 10px;
     list-style-type: none;
 }
 .navbar li {
@@ -22,26 +41,26 @@ body {
     margin-right: 20px;
 }
 .navbar a {
-    color: #fff;
+    color: white;
     text-decoration: none;
     font-size: 1.2em;
 }
-.imagem-direita{
-    float: right;
+
+h1{
+   
+    font-size: 65px;
 }
 .paragrafo{
-    font-size: 30px;
+    font-size: 25px;
 }
 .paragrafo2{
-    font-size: 30px;
+    font-size: 33px;
 }
 .esquerda{
     grid-column: 3 / 2;
     grid-row: 3 / 2;
-    text-align: left;
-    background-color: crimson;
-    border-radius: 20px;
-    border: 30px solid;
+    text-align: center;
+    
 }
 
 #bloco-esquerdo{
@@ -49,7 +68,6 @@ body {
 }
 .container{
     height: 100vh;
-    border: 1px solid;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(4, 1fr);
@@ -63,14 +81,25 @@ body {
         
        
     color: white; /* Cor do texto */
-        
-       
-    padding: 20px; /* Espaçamento interno */
+        padding: 10px; /* Espaçamento interno */
         
        
     margin-top: 20px; /* Margem superior para separar do conteúdo acima */
         
        
     font-size: 18px; /* Tamanho da fonte */
-    border-width: 20px;
+        
+       
+    border-width: 5px;
+        
+       
+    
+       
+    text-align: center; /* Alinha o texto ao centro */
+        display: inline-block; /* Permite que o bloco ocupe apenas o espaço necessário */
+        
+       
+    float: left; /* Alinha o bloco de texto à esquerda */
     }
+    
+    
